@@ -6,8 +6,9 @@
 5. Set SMPlugin to be on the layer you just created - SMRibbon (allow all children to change to this layer as well).
 6. Click on the SMRibbon Prefab in your scene, the child of SMPlugin.
 7. In the inspector add your auth token to the Auth Token Field.
-8. Set SuperMightyCam > Culling Mask to 'SMRibbon'
-9. Switch to iOS Platform for your build
-10. Open Player Settings, set the 'Target Xcode Version' to '6.0' or greater and set your bundle identifier.
-11. Build the iOS version!
+8. Set SuperMightyCam > Culling Mask to 'SMRibbon'.
+9. On YOUR main camera, open the Culling Mask and deselect 'SMRibbon'.
+10. Switch to iOS Platform for your build
+11. Open Player Settings, set the 'Target Xcode Version' to '6.0' or greater and set your bundle identifier.
+12. Build the iOS version!
 
