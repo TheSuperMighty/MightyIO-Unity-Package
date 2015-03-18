@@ -27,7 +27,7 @@ string: A message giving the status of the MightyIO authentication.
 This method will run when I successful purchase has been made inside the pop up shop. Implement this inside your OnEnable function and inside place code to unloack the item for your player.
 
 **returns:**
-string: The product that was purchased from the Pop Up Shop
+string: The Product Identifier of the product that was purchased from the Pop Up Shop
 
 ---
 
